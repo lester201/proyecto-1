@@ -6,9 +6,9 @@ class ventas
     {
 
         Console.WriteLine("bienvenido al sistema de ventas del Ranchon");
-        Console.WriteLine("Ingresa tu Nombre en nuestro sistema");
+        Console.Write("Ingresa tu Nombre en nuestro sistema: ");
         string Nombre = Console.ReadLine();
-         Console.WriteLine("Ingresa tu Edad en nuestro sistema");
+         Console.Write("Ingresa tu Edad en nuestro sistema: ");
         int Edad = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("1.Carne");
         Console.WriteLine("2.Lacteos");

@@ -8,6 +8,8 @@ class ventas
         Console.WriteLine("bienvenido al sistema de ventas del Ranchon");
         Console.WriteLine("Ingresa tu Nombre en nuestro sistema");
         string Nombre = Console.ReadLine();
+         Console.WriteLine("Ingresa tu Edad en nuestro sistema");
+        int Edad = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("1.Carne");
         Console.WriteLine("2.Lacteos");
         Console.WriteLine("3.Refrescos");
@@ -36,7 +38,17 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 25;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
+                    
+                    
                     Console.ReadKey();
+
                 }
                 else if (Tamaño == "2")
                 {
@@ -44,6 +56,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 31;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -52,6 +71,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 40;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
 
@@ -68,6 +94,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 30;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -76,6 +109,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 37;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -84,6 +124,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 48;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
 
                 }
@@ -100,6 +147,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 35;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -108,6 +162,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 43;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -116,6 +177,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 55;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
             }
@@ -131,6 +199,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 40;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -139,6 +214,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 50;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -147,6 +229,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 65;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
 
                 }
@@ -163,6 +252,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 90;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -171,6 +267,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 112;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -179,6 +282,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal1 = Cantidad * 145;
                     Console.WriteLine($"Subtotal:  {subtotal1:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal1 * 0.30;
+                        double total_D = subtotal1 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
             }
@@ -190,6 +300,7 @@ class ventas
             Console.WriteLine("2.Queso");
             Console.WriteLine("3.Mortadela");
             Console.WriteLine("4.Quesillo");
+            Console.WriteLine("5.Copetines.");
             string lacteos = Console.ReadLine();
             if (lacteos == "1")
             {
@@ -203,6 +314,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 17;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -211,6 +329,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 21;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -219,6 +344,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 27;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
 
@@ -235,6 +367,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 22;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -243,6 +382,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 27;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -251,6 +397,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 35;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
             }
@@ -266,6 +419,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 16;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -274,6 +434,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 20;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -282,6 +449,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 26;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
 
@@ -298,6 +472,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 16;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -306,6 +487,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 20;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -314,6 +502,66 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal2 = Cantidad * 26;
                     Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
+                    Console.ReadKey();
+                }
+
+            }
+            if (lacteos == "5")
+            {
+                Console.WriteLine("1.Normal");
+                Console.WriteLine("2.Mediano");
+                Console.WriteLine("3.Grande");
+                string Tamaño = Console.ReadLine();
+                if (Tamaño == "1")
+                {
+                    Console.WriteLine("Ingrese la Cantidad de Copetines  a Comprar");
+                    int Cantidad = Convert.ToInt32(Console.ReadLine());
+                    int subtotal2 = Cantidad * 16;
+                    Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
+                    Console.ReadKey();
+                }
+                else if (Tamaño == "2")
+                {
+                    Console.WriteLine("Ingrese la Cantidad de Copetines a Comprar");
+                    int Cantidad = Convert.ToInt32(Console.ReadLine());
+                    int subtotal2 = Cantidad * 20;
+                    Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
+                    Console.ReadKey();
+                }
+                else if (Tamaño == "3")
+                {
+                    Console.WriteLine("Ingrese la Cantidad de Copetines a Comprar");
+                    int Cantidad = Convert.ToInt32(Console.ReadLine());
+                    int subtotal2 = Cantidad * 26;
+                    Console.WriteLine($"Subtotal:  {subtotal2:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal2 * 0.30;
+                        double total_D = subtotal2 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
 
@@ -340,6 +588,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 20;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -348,6 +603,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 25;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -356,6 +618,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 32;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
 
@@ -372,6 +641,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 19;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -380,6 +656,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 23;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -388,6 +671,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 30;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
 
@@ -404,6 +694,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 19;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -412,6 +709,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 23;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -420,6 +724,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 30;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
 
@@ -436,6 +747,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 20;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -444,6 +762,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 25;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -452,6 +777,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 32;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
             }
@@ -467,6 +799,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 20;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "2")
@@ -475,6 +814,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 25;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
                 else if (Tamaño == "3")
@@ -483,6 +829,13 @@ class ventas
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 32;
                     Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    if (Edad > 59)
+                    {
+
+                        double Descuento = subtotal3 * 0.30;
+                        double total_D = subtotal3 - Descuento;
+                        Console.WriteLine($"subtotal + descuento de tercera edad: {total_D:F2}");
+                    }
                     Console.ReadKey();
                 }
 
